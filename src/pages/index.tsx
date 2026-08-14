@@ -24,11 +24,16 @@ export default function Home(): React.JSX.Element {
     <Layout title="Inicio" description="Repositorio interno de CIBELAND">
       <main>
         <section className={styles.hero}>
-          <div className="container">
+          <div className={`container ${styles.heroInner}`}>
+            <img className={styles.heroLogo} src="/cibeland-hub/img/logo.svg" alt="CIBELAND · Petwear for every dog" />
             <span className={styles.badge}>Repositorio interno</span>
-            <h1>CIBELAND Hub</h1>
-            <p>Todo el conocimiento de la tienda online de mascotas, ordenado y compartido.</p>
-            <Link className="button button--primary button--lg" to="/docs/intro">Entrar al repositorio</Link>
+            <h1>El cerebro de CIBELAND</h1>
+            <p>Productos, proveedores, ideas, fabricación, marketing y procedimientos en un único lugar.</p>
+            <div className={styles.heroButtons}>
+              <Link className="button button--primary button--lg" to="/docs/intro">Entrar al repositorio</Link>
+              <a className="button button--secondary button--lg" href="https://github.com/menefta/cibeland-hub" target="_blank" rel="noreferrer">Abrir GitHub</a>
+            </div>
+            <div className={styles.team}>Gestionado por <strong>Cher · Nutria · VM</strong></div>
           </div>
         </section>
 
@@ -49,7 +54,7 @@ export default function Home(): React.JSX.Element {
               </a>
             ))}
           </div>
-          <p className={styles.helpText}>Los botones abren GitHub con el archivo ya colocado en la carpeta correcta. Copia el contenido de la plantilla correspondiente, rellena los datos y pulsa <strong>Commit changes</strong>.</p>
+          <p className={styles.helpText}>Solo las socias autorizadas deben añadir o modificar contenido. Los botones abren GitHub con el archivo colocado en la carpeta correcta.</p>
         </section>
 
         <section className={`container ${styles.grid}`}>
