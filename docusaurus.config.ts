@@ -5,13 +5,16 @@ const config: Config = {
   title: 'CIBELAND Hub',
   tagline: 'El cerebro de la tienda online de mascotas',
   favicon: 'img/favicon.svg',
-  future: {v4: true},
   url: 'https://menefta.github.io',
   baseUrl: '/cibeland-hub/',
   organizationName: 'menefta',
   projectName: 'cibeland-hub',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn'
+    }
+  },
   i18n: {defaultLocale: 'es', locales: ['es']},
   presets: [
     [
