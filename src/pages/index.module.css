@@ -2,7 +2,21 @@
 .hero h1 {font-size: clamp(3rem, 8vw, 5.8rem); margin: .5rem 0; letter-spacing: -.05em;}
 .hero p {font-size: 1.25rem; max-width: 720px; margin: 0 auto 2rem;}
 .badge {display:inline-block; padding:.4rem .8rem; border-radius:999px; background:#fff; font-weight:700; box-shadow:0 8px 30px rgba(36,18,48,.08)}
+.quickSection {padding-top:3rem;}
+.sectionHeading {display:flex; align-items:end; justify-content:space-between; gap:1rem; margin-bottom:1rem;}
+.sectionHeading h2 {font-size:2rem; margin:.2rem 0 0;}
+.eyebrow {font-size:.78rem; font-weight:800; text-transform:uppercase; letter-spacing:.12em; color:var(--ifm-color-primary);}
+.quickGrid {display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:1rem;}
+.quickCard {display:flex; align-items:center; gap:.9rem; padding:1rem 1.1rem; border:2px solid var(--ifm-color-primary-lightest); border-radius:18px; background:var(--ifm-background-surface-color); color:inherit; text-decoration:none; box-shadow:0 8px 24px rgba(36,18,48,.06); transition:.2s ease;}
+.quickCard:hover {transform:translateY(-3px); border-color:var(--ifm-color-primary); text-decoration:none; box-shadow:0 14px 30px rgba(36,18,48,.11);}
+.quickCard div {flex:1; display:flex; flex-direction:column;}
+.quickCard strong {font-size:1rem;}
+.quickCard small {color:var(--ifm-color-emphasis-700); margin-top:.15rem;}
+.quickCard b {font-size:1.5rem; color:var(--ifm-color-primary);}
+.quickIcon {font-size:1.8rem;}
+.helpText {margin:1rem 0 0; padding:1rem 1.1rem; border-radius:14px; background:var(--ifm-color-emphasis-100); color:var(--ifm-color-emphasis-800);}
 .grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.2rem; padding-top:3rem; padding-bottom:4rem;}
 .card {display:block; padding:1.5rem; border:1px solid var(--ifm-color-emphasis-200); border-radius:20px; color:inherit; text-decoration:none; background:var(--ifm-background-surface-color); transition:.2s ease;}
 .card:hover {transform:translateY(-4px); box-shadow:0 14px 34px rgba(36,18,48,.10); text-decoration:none;}
 .card span {font-size:2rem}.card h2{margin:.5rem 0}.card p{margin:0;color:var(--ifm-color-emphasis-700)}
+@media (max-width: 700px) {.sectionHeading{align-items:flex-start;flex-direction:column}.hero{padding:4rem 0 3rem}}
