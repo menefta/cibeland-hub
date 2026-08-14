@@ -25,7 +25,7 @@ export default function Home(): React.JSX.Element {
       <main>
         <section className={styles.hero}>
           <div className={`container ${styles.heroInner}`}>
-            <img className={styles.heroLogo} src="/cibeland-hub/img/logo.svg" alt="CIBELAND · Petwear for every dog" />
+            <img className={styles.heroLogo} src="/cibeland-hub/img/cibeland-logo-oficial.svg" alt="CIBELAND · Petwear for every dog" />
             <span className={styles.badge}>Repositorio interno</span>
             <h1>El cerebro de CIBELAND</h1>
             <p>Productos, proveedores, ideas, fabricación, marketing y procedimientos en un único lugar.</p>
