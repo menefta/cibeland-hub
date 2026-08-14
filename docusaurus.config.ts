@@ -34,7 +34,7 @@ const config: Config = {
     image: 'img/cibeland-social-card.svg',
     navbar: {
       title: 'CIBELAND',
-      logo: {alt: 'Logo CIBELAND', src: 'img/logo.svg'},
+      logo: {alt: 'Logo CIBELAND', src: 'img/cibeland-logo-oficial.svg'},
       items: [
         {type: 'docSidebar', sidebarId: 'cibelandSidebar', position: 'left', label: 'Repositorio'},
         {to: '/docs/productos/catalogo', label: 'Productos', position: 'left'},
