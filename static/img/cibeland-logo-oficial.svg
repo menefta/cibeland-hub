@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">CIBELAND</title>
+  <desc id="desc">Logo CIBELAND con chihuahua y el lema Petwear for every dog</desc>
+  <rect width="900" height="560" fill="#ffffff"/>
+  <g fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M408 201 C396 172 395 128 410 78 C438 94 459 117 466 145"/>
+    <path d="M492 145 C502 112 529 82 561 63 C568 110 559 153 544 180"/>
+    <path d="M410 201 C425 168 451 149 482 149 C516 149 541 169 547 205 C552 239 537 267 510 278"/>
+    <path d="M450 276 C436 297 433 339 437 374"/>
+    <path d="M510 278 C525 302 529 338 526 374"/>
+    <path d="M438 374 L428 374 C420 374 418 389 429 389 L462 389"/>
+    <path d="M526 374 L540 374 C548 374 550 389 539 389 L501 389"/>
+    <path d="M462 389 C467 357 468 327 463 298"/>
+    <path d="M501 389 C494 356 494 322 500 296"/>
+    <path d="M463 298 C477 313 492 311 500 296"/>
+    <path d="M528 354 C557 361 576 349 585 329 C594 310 606 309 612 322"/>
+    <path d="M424 190 C414 179 411 165 414 151"/>
+  </g>
+  <g fill="#111111"><circle cx="449" cy="205" r="7"/><circle cx="510" cy="205" r="7"/><ellipse cx="480" cy="229" rx="10" ry="8"/></g>
+  <text x="450" y="475" text-anchor="middle" fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="92" letter-spacing="25">CIBELAND</text>
+  <text x="450" y="525" text-anchor="middle" fill="#222222" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="9">PETWEAR FOR EVERY DOG</text>
+  <g stroke="#222222" stroke-width="3"><line x1="100" y1="515" x2="250" y2="515"/><line x1="650" y1="515" x2="800" y2="515"/></g>
+</svg>
